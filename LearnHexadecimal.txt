@@ -1,0 +1,91 @@
+Binary system
+0 1
+
+rgb(255,255,255)
+
+we store everythings as bit and bytes
+ 1 byte = 8 bits
+ 255=1 byte =  8 bits
+
+ 1111 1111 --base 2
+       8th  1 x 2pow0 = 1 x 1 = 1   
+       7th  1 x 2pow1 = 1 x 2 = 2
+       6th  1 x 2pow2 = 1 x 4 = 4
+       5th  1 x 2pow3 = 1 x 8 = 8
+
+       4th  1 x 2pow4 = 1 x 16 =16
+       3rd  1 x 2pow5 = 1 x 32 = 32
+       2nd  1 x 2pow6 = 1 x 64 = 64
+       1st  1 x 2pow7 = 1 x 128 = 128
+
+       Sum = 1+2+4+8+16+32+64+128 = 128+127 = 255
+       
+ 1   1   1   1     1    1    1   1
+ 128 64  32  16    8    4    2   1
+
+ 17 = 0001 0001
+ 31 = 0001 1111
+
+320 - 2 bytes of 
+
+1111 1111 1111 1111
+
+var num =0//1 byte of info
+var string = '1byte'
+var longnum = 1.547534364673253574552535675
+
+Decimal system
+
+Base -10 
+0 to 9
+
+
+0101
+= 1x10pow0 = 1
+= 1x10pow2 = 100
+=101
+
+
+45 = 40 +5
+190
+
+Hexadecimal systems 
+will combinations of numbers and alphabets
+
+
+base = 16
+0-F = 0 to 9 + A to F
+A:10
+B:11
+C:12
+D:13
+E:14
+F:15
+
+AD = Ax16pow1+ Dx16pow0
+   = 10x16 + 13x1
+ =160 +13
+ =173 (Decimal ==AD == Binary format )
+
+0 in hexadecimal is 00 (16)
+255 in hexadecimal is FF
+
+
+//class52: Advanced class52
+
+1. Set correct margin and padding effects on the portfolio header
+2. Chang the color orf the visited and unvisited links in the header using the '.list' selector
+3. Create a hover effect to display the name of the game, when the mouse is houvered over the image
+
+Margin and padding:
+Helps you to customize own spacing between each and every element
+
+
+Relative and Absolute path:
+
+Absolute path:
+
+c:krishprojects/class5/projectwork/map/funny.image
+
+Relative path:
+map/funny.image
